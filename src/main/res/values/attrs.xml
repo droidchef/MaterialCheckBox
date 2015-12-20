@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaterialCheckBox">
+
+        <attr name="mcb_radius" format="dimension"/>
+        <attr name="mcb_shadowRadius" format="dimension"/>
+        <attr name="mcb_checkedStateColor" format="color"/>
+        <attr name="mcb_unCheckedStateColor" format="color"/>
+        <attr name="mcb_lineColor" format="color"/>
+        <attr name="mcb_shadowColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
