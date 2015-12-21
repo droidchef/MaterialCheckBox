@@ -47,22 +47,22 @@ task generateJavadocsJar(type: Jar) {
 generateJavadocsJar.dependsOn generateJavadocs
 
 bintray {
-    user = 'ishan1604'
-    key = '037a70fd7e19505d32ab94234bf5e2023ed578aa'
+    user = BintrayUserName
+    key = BintrayApiKey
     pkg {
         repo = 'maven'
         name = 'in.ishankhanna.materialcheckboxview'
 
         version {
-            name = 'Material Check Box '
+            name = 'MaterialCheckBox'
             desc = 'Material Design Check Box'
             released  = new Date()
             vcsTag = '1.0.0'
         }
 
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/hathibelagal/LibraryTutorial.git'
-        websiteUrl = 'https://github.com/hathibelagal/LibraryTutorial'
+        vcsUrl = 'https://github.com/ishan1604/MaterialCheckBox.git'
+        websiteUrl = 'https://github.com/ishan1604/MaterialCheckBox'
     }
     configurations = ['archives']
 }
