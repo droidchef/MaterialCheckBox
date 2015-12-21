@@ -10,6 +10,6 @@ Inspiration from [https://dribbble.com/shots/1983467-Right-And-Wrong](https://dr
 
 # Developers
 
-* Ishan Khanna
-* Salam Thomas
+* [Ishan Khanna](https://github.com/ishan1604)
+* [Salam Thomas](https://github.com/salamthomas)
 
