@@ -71,8 +71,8 @@ public class MaterialCheckBox extends View {
 
         final TypedArray attributes = context.obtainStyledAttributes(attrs, R.styleable.MaterialCheckBox);
         radius = attributes.getDimensionPixelSize(R.styleable.MaterialCheckBox_mcb_radius, getDimensionInPixel(18));
-        checkedStateColor = attributes.getColor(R.styleable.MaterialCheckBox_mcb_checkedStateColor, Color.parseColor("#FF373D"));
-        unCheckedStateColor = attributes.getColor(R.styleable.MaterialCheckBox_mcb_unCheckedStateColor, Color.parseColor("#00E676"));
+        checkedStateColor = attributes.getColor(R.styleable.MaterialCheckBox_mcb_checkedStateColor, Color.parseColor("#00E676"));
+        unCheckedStateColor = attributes.getColor(R.styleable.MaterialCheckBox_mcb_unCheckedStateColor, Color.parseColor("#FF373D"));
         lineColor = attributes.getColor(R.styleable.MaterialCheckBox_mcb_lineColor, Color.parseColor("#FFFFFF"));
         shadowColor = attributes.getColor(R.styleable.MaterialCheckBox_mcb_shadowColor, Color.parseColor("#80000000"));
         maxShadowRadius = attributes.getDimensionPixelSize(R.styleable.MaterialCheckBox_mcb_shadowRadius, 0);
