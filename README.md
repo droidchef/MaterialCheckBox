@@ -5,6 +5,25 @@ A simple checkbox view interaction that tweens between tick and a cross.
 # Demo
 ![Material Checkbox Demo](https://raw.githubusercontent.com/ishan1604/MaterialCheckBox/master/demo/materialcheckbox-demo.gif)
 
+# Download
+
+Add this to your Top Level `build.gradle` file
+```
+allprojects {
+    repositories {
+        maven {
+            url 'https://dl.bintray.com/ishan1604/maven/'
+        }
+    }
+}
+```
+Add this to your app module's `build.gradle` file
+```
+dependencies {
+    compile 'in.ishankhanna.materialcheckboxview:materialcheckboxview:1.0.1'
+}
+```
+
 # Credits
 
 Inspiration from [https://dribbble.com/shots/1983467-Right-And-Wrong](https://dribbble.com/shots/1983467-Right-And-Wrong)
