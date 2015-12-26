@@ -3,6 +3,7 @@
 A simple checkbox view interaction that tweens between tick and a cross.
 
 # Demo
+![Material Checkbox Demo](https://raw.githubusercontent.com/ishan1604/MaterialCheckBox/master/demo/materialcheckbox-demo.gif)
 
 # Credits
 
