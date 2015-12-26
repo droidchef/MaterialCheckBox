@@ -24,6 +24,48 @@ dependencies {
 }
 ```
 
+# Usage
+
+In your Layout XML add this
+
+```
+    <in.ishankhanna.materialcheckboxview.MaterialCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_checkbox"
+        app:mcb_radius="28dp"
+        app:mcb_shadowRadius="8dp"
+        app:mcb_checkedStateColor="@color/red"
+        app:mcb_unCheckedStateColor="@color/green"
+        app:mcb_lineColor="@color/white"
+        app:mcb_shadowColor="@color/darkerGray"/>
+
+```
+
+| Property                | Description                                              | Format    | Default   |
+|-------------------------|----------------------------------------------------------|-----------|-----------|
+| mcb_radius              | Radius of the circle.                                    | dimension | 18 dp     |
+| mcb_shadowRadius        | Radius of the shadow.                                    | dimension | 0 dp      |
+| mcb_checkedStateColor   | Color of the circle with tick.                           | color     | #00E676   |
+| mcb_unCheckedStateColor | Color of the circle with cross.                          | color     | #FF373D   |
+| mcb_lineColor           | Color of the lines with which tick and cross are formed. | color     | #FFFFFF   |
+| mcb_shadowColor         | Color of the shadow.                                     | color     | #80000000 |
+
+Within your activity or fragment you can set a listener like this
+
+```
+    MaterialCheckBox materialCheckBox = (MaterialCheckBox) findViewById(R.id.button);
+    materialCheckBox.setOnCheckedChangeListener(new MaterialCheckBox.OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(boolean isChecked) {
+            // Have fun here :)
+        }
+    });
+    
+```
+
+Note : `onCheckedChanged(boolean isChecked)` Method is called after the animation completes.
+
 # Credits
 
 Inspiration from [https://dribbble.com/shots/1983467-Right-And-Wrong](https://dribbble.com/shots/1983467-Right-And-Wrong)
